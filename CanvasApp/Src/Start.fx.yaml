@@ -1,0 +1,108 @@
+Start As screen:
+    BackgroundImage: =f00b8fb1bf7b5ef38b42fd08039b5219
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =7
+
+        Rectangle179510807 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =
+            Fill: =RGBA(255, 255, 255, 0.32)
+            FocusedBorderThickness: =4
+            Height: =523
+            HoverFill: =
+            PressedFill: =
+            Width: =520
+            X: =59
+            Y: =312
+            ZIndex: =2
+
+        Button119539087 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =0
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =86
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnSelect: =Navigate(Face, ScreenTransition.Fade);
+            PaddingBottom: =12
+            PaddingLeft: =56
+            PaddingRight: =56
+            PaddingTop: =11
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Size: =30
+            Text: ="Get Now !"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =330
+            X: =154
+            Y: =700
+            ZIndex: =4
+
+        Label179510804 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =228
+            LineHeight: =1.171875
+            PaddingBottom: =15
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =15
+            Size: =60
+            Text: ="Get Your Face"
+            Width: =464
+            X: =87
+            Y: =346
+            ZIndex: =5
+
+        Label179510802 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(168, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =80
+            Italic: =true
+            LineHeight: =1.171875
+            PaddingBottom: =15
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =15
+            Size: =22.5
+            Text: ="Become to best friends !"
+            Width: =464
+            X: =87
+            Y: =557
+            ZIndex: =6
+

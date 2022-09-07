@@ -1,0 +1,58 @@
+{
+  "58969de1-dd69-4efd-b43c-71ddd3a95443": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://bouyguesconstruction.sharepoint.com/sites/BYCN_IT": {
+        "dataSources": {
+          "Ressources": {
+            "tableName": "6d7ae6cd-f5de-4ecc-ae83-270728861c72"
+          }
+        }
+      },
+      "https://bouyguesconstruction.sharepoint.com/sites/structis_structisvnhr": {
+        "dataSources": {
+          "birthday": {
+            "tableName": "f5482d5e-a233-473d-b107-b61848084daf"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "birthday",
+      "Ressources"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "58969de1-dd69-4efd-b43c-71ddd3a95443"
+  },
+  "96b06e01-3374-40fe-addd-d55f4577ad21": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1596/1.0.1596.2995/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "96b06e01-3374-40fe-addd-d55f4577ad21"
+  }
+}
